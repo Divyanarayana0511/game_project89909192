@@ -12,3 +12,9 @@ body{
     background-position: center;
     background-repeat: no-repeat;
 }
+.container{
+    background-color: coral;
+}
+output{
+    background-color: cornsilk;
+}

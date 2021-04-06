@@ -12,6 +12,25 @@
     
 </head>
 <body>
-    
+    <h4 id="player_1_name"></h4><span id="player_1_score"></span>
+    <br>
+    <h4 id="player_2_name"></h4><span id="player_2_score"></span>
+
+    <div class="container">
+        <h2 >Question Turn: <span id="question_turn"></span></h2>
+        <h2 >Answer Turn: <span id="answer_turn"></span></h2>
+        <div class="col-lg-6" id=output></div>
+        <br><br>
+        <div class="col-lg-6" id="input">
+            <br><br>
+            <input type="number" name="first Number" id="firstno" placeholder="Enter first number here">
+            <br><br>
+            <input type="number" name="sec number" id="secno" placeholder="Enter second number here">
+            <button type="submit" class="bg-success" onclick="send()">Submit</button>
+        </div>
+        <div class="col-lg-6"  id=output></div>
+
+    </div>
 </body>
+<script src="gamepage.js"></script>
 </html>
